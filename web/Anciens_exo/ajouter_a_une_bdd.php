@@ -12,4 +12,6 @@ catch(Exception $e)
 $nb_modifs = $bdd->exec('UPDATE jeux_video SET possesseur = \'Florent\' WHERE possesseur = \'Michel\'');
 
 echo $nb_modifs;
+
+//Ceci est un ajout
 ?>
